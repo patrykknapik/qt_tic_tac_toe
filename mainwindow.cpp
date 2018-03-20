@@ -46,7 +46,6 @@ void MainWindow::setGameSettings(int newInRow, int newSize){
 
 void MainWindow::runGame(){
 
-    emit setQuote("TESTOWY QUOTE");
     for(int k = 0; k < boardSize*boardSize; ++k){
         ui->gridLayout->removeWidget(fields.at(k));
         delete fields.at(k);
@@ -78,7 +77,7 @@ void MainWindow::fieldClicked(){
     qDebug()<<"Status: "<< gameStatus << '\n';
     switch(gameStatus){
     case player:
-        emit setQuote("Wgrałeś! :D");
+        emit setQuote("Wygrałeś! :D");
         break;
      case computer:
         emit setQuote("Pregrałeś :/");
