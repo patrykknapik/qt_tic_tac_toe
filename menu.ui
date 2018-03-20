@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>340</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>340</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>340</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Tic Tac Toe nxn - Menu</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>110</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zaczynamy!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>start!</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="boardSizeSelector">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wielkość kwadratowej planszy&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="minimum">
+    <number>3</number>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="inRowSelector">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>70</y>
+     <width>48</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ilość znaków w rzędzie potrzebnych do wygrania&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="minimum">
+    <number>3</number>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wielkość pola</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ilość w rzędzie</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Patryk Knapik 2017</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X - Gracz      O - Komputer</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
