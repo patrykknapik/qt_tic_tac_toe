@@ -3,12 +3,13 @@
 
 Simple Tic-Tac-Toe Game written in C++ with Qt GUI.
 Game was first developed for terminal only so it can work in terminal after minor changes.
+<<<<<<< HEAD
 Some screenshots:
-
 ![alt text](./screenshots/screen1.png "Screenshot 1")
-
 ![alt text](./screenshots/screen2.png "Screenshot 2")
-
 ![alt text](./screenshots/screen3.png "Screenshot 3")
+=======
 
+>>>>>>> 895d43997afb2a6530ced32149ff72ef8045aff3
 *for PAMSI lab on PWR*
+
