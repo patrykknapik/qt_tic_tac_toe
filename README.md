@@ -4,7 +4,7 @@
 Simple Tic-Tac-Toe Game written in C++ with Qt GUI.
 Game was first developed for terminal only so it can work in terminal after minor changes.
 
-Some screenshots:
+Some random screenshots:
 
 ![alt text](./screenshots/screen1.png "Screenshot 1")
 
